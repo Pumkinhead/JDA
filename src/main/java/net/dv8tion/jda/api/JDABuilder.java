@@ -1846,7 +1846,7 @@ public class JDABuilder
                 .setCacheActivity(activity)
                 .setCacheIdle(idle)
                 .setCacheStatus(status);
-        jda.login(shardInfo, compression, true, intents, encoding);
+        jda.login(shardInfo, compression, false, intents, encoding);
         return jda;
     }
 
